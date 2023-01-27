@@ -1,4 +1,4 @@
-  GNU nano 4.8                                            main.tf                                                       terraform {
+terraform {
   required_version = ">= 1.0"
   backend "local" {}  # Can change from "local" to "gcs" (for google) or "s3" (for aws), if you would like to preserve >  required_providers {
     google = {
